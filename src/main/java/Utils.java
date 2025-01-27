@@ -4,7 +4,7 @@ import java.util.*;
 
 public class Utils {
     public static void verificaAmizades(Map<String, List<String>> grafos, String index){
-        Queue<String> linkedList = new LinkedList<>(); //Queue - Modelo que expressa o FIFO, com sua lógica sendo realmente uma pilha
+        Queue<String> linkedList = new LinkedList<>(); //Queue - Modelo que expressa o FIFO, com sua lógica sendo realmente uma fila
         Set<String> grafosVisitados = new HashSet<>(); //Set - Modelo de hash que não permite valores duplicados
         linkedList.add(index);
         grafosVisitados.add(index);
